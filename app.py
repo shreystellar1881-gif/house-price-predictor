@@ -24,9 +24,9 @@ st.subheader("🏠 Property Details")
 col3, col4 = st.columns(2)
 with col3:
     house_age = st.slider("House Age (years)", 1, 52, 20)
-    avg_rooms = st.slider("Average Rooms", 1.0, 15.0, 5.0)
+    rooms = st.slider("Average Rooms", min_value=2, max_value=10, value=5, step=1)
 with col4:
-    avg_bedrooms = st.slider("Average Bedrooms", 0.5, 5.0, 1.0)
+    bedrooms = st.slider("Average Bedrooms", min_value=1, max_value=5, value=2, step=1)
     avg_occup = st.slider("Average Occupancy", 0.5, 10.0, 3.0)
 
 # --- Economic / area factors ---
