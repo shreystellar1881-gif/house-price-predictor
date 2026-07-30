@@ -1,6 +1,7 @@
 # 🏡 California House Price Predictor
 
 An end-to-end machine learning project that predicts median house prices in California and serves the model through an interactive Streamlit dashboard.
+**📓 Google Colab Notebook :** (https://colab.research.google.com/drive/1a-xqcWjOR4y5oyrg1qeuZyASNp3DojYA?usp=sharing)
 
 **🔗 Live App:** [house-price-predictor-5lz5m2xfwbkfyaqpdyocaf.streamlit.app](https://house-price-predictor-5lz5m2xfwbkfyaqpdyocaf.streamlit.app/)
 
